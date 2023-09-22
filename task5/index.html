@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITS WEB CLUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+  <div class="head-img">
+  <img src="https://1.bp.blogspot.com/-mQDcfmXA704/WHXYkJ0QMMI/AAAAAAAAAGk/8Py0Ewt-olkiuGBf3J1v4DH8BnfjV3gNgCPcB/s1600/customer_logo.jpg"><h1> Mits Webinar Registration Form</h1> </div>
+  <hr color="black">
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="Name" id="name" required>
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="ex: myname@example.com" id="email" required>
+    <label for="phone"> Phone:</label>
+    <input type="tel" name="phone" placeholder="Phone Number" id="phone" required>
+    <label for="prevoious_college">prevoious college:</label>
+    <input type="text" name="previous_college" placeholder="previous_college" id="previous_college" required>
+    <label for="company_address">college Address:</label>
+    <input type="text" name="address" placeholder="Address" id="Address" required>
+    <label for="city">City:</label>
+    <input type="text" name="city" placeholder="City" id="city" required>
+    <label for="state_province">State:</label>
+    <input type="text" name="state" placeholder="State" id="state">
+    <label for="country">Country:</label>
+    <select name="country" id="country">
+      <option value="">Please Select</option>
+      <option value="IND">India</option>
+    </select>
+    <label for="postal_zip_code">Postal/Zip Code:</label>
+    <input type="text" name="postal_zip_code" id="postal_zip_code" required>
+    <label for="college_website">college Website:</label>
+    <input type="url" name="college_website" placeholder="Enter college website" id="college" required>
+    <div class="submit-button">
+        <input type="submit" value="Submit" required>
+    </div>
+  </form>
+  </div>
+</body>
+</html>

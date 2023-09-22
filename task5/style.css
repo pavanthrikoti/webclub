@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #bea6f8; /* Background color added */
+}
+
+.main {
+    border: 3px solid rgb(0, 9, 12); /* Border style and color added */
+    width: 850px;
+    margin: 20px auto; /* Adjusted margin */
+    padding: 20px; /* Padding added */
+    background-color: #f8c5e5; /* Background color added */
+}
+
+h1 {
+    color: rgb(22, 23, 22);
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.head-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+form {
+    margin: 0 auto;
+    height: auto;
+    width: 400px;
+    padding: 20px; /* Padding added */
+    background-color: #43ccde00; /* Background color added */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    margin-bottom: 10px;
+    border-color: rgb(9, 126, 205);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    background-color: rgb(48, 183, 255);
+    width: 100%; /* Adjusted width */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
