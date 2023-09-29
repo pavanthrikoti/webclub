@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        const calculator = (a, b, op) => {
+            switch (op) {
+                case '+':
+                    return a + b;
+                case '-':
+                    return a - b;
+                case '*':
+                    return a * b;
+                case '/':
+                    return a / b;
+                default:
+                    return "Operator not found";
+            }
+        };
+        const num1 = parseFloat(prompt("Enter the first number:"));
+        const num2 = parseFloat(prompt("Enter the second number:"));
+        const operator = prompt("Enter an operator (+, -, *, /):");
+        const result = calculator(num1, num2, operator);
+        if (typeof result === 'number') {
+            alert(`Result: ${result}`);
+        } else {
+            alert(result);
+        }
+    </script>
+</body>
+</html>
